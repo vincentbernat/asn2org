@@ -6,18 +6,18 @@ This script produces a CSV file translating AS numbers to organization
 names. It relies on PeeringDB and IRR databases.
 
 This file is released under the CC0-1.0 license (public domain).
-
 """
 
 import argparse
+import csv
+import gzip
+import json
 import logging
 import logging.handlers
 import os
 import sys
-import json
+
 import requests
-import csv
-import gzip
 
 logger = logging.getLogger(os.path.splitext(os.path.basename(sys.argv[0]))[0])
 
@@ -109,7 +109,7 @@ def download(url, target):
         logger.info(f"use existing copy for {url}")
 
 
-def irr(*urls):
+def irr(source, *urls):
     """Return ASN to organization mapping from provided IRR database."""
     autnums = {}
     orgs = {}
@@ -147,7 +147,7 @@ def irr(*urls):
                 elif field == "org-name" and current == "organisation":
                     orgs[org] = value
 
-    return {asn: orgs.get(org, org) for asn, org in autnums.items()}
+    return {asn: (orgs.get(org, org), source) for asn, org in autnums.items()}
 
 
 def peeringdb(peeringdb_url):
@@ -156,40 +156,44 @@ def peeringdb(peeringdb_url):
     download(f"{peeringdb_url}/net", "peeringdb.db.json")
     with open("peeringdb.db.json") as input:
         data = json.load(input)
-    return {d["asn"]: d["name"] for d in data["data"]}
+    return {d["asn"]: (d["name"], "PeeringDB") for d in data["data"]}
 
 
 def main(options):
     """Create CSV file."""
     asns = {}
-    asns.update(irr(f"{options.afrinic_url}/afrinic.db.gz"))
+    asns.update(irr("AFRINIC", f"{options.afrinic_url}/afrinic.db.gz"))
     asns.update(
         irr(
+            "APNIC",
             f"{options.apnic_url}/apnic.db.aut-num.gz",
             f"{options.apnic_url}/apnic.db.organisation.gz",
-        )
+        ),
     )
-    asns.update(irr(f"{options.arin_url}/arin.db.gz"))
+    asns.update(irr("ARIN", f"{options.arin_url}/arin.db.gz"))
     asns.update(
         {
-            asn: name.removeprefix("LACNIC generated autnum for ")
-            for asn, name in irr(f"{options.lacnic_url}/lacnic.db.gz").items()
-        }
+            asn: (name.removeprefix("LACNIC generated autnum for "), source)
+            for asn, (name, source) in irr(
+                "LACNIC", f"{options.lacnic_url}/lacnic.db.gz"
+            ).items()
+        },
     )
     asns.update(
         irr(
+            "RIPE",
             f"{options.ripe_url}/ripe.db.aut-num.gz",
             f"{options.ripe_url}/ripe.db.organisation.gz",
-        )
+        ),
     )
     asns.update(peeringdb(options.peeringdb_url))
 
-    data = [(asn, name) for asn, name in asns.items()]
+    data = [(asn, name, source) for asn, (name, source) in asns.items()]
     data.sort()
     w = csv.writer(sys.stdout, dialect=options.csv_dialect, quoting=csv.QUOTE_MINIMAL)
-    w.writerow(("asn", "name"))
-    for asn, name in data:
-        w.writerow((asn, name))
+    w.writerow(("asn", "name", "source"))
+    for d in data:
+        w.writerow(d)
 
 
 if __name__ == "__main__":
