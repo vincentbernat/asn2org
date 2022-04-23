@@ -1,0 +1,43 @@
+---
+name: Generate CSV
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: 0 7 1 * *
+
+jobs:
+  CSV:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # Cache DB files
+      - name: Get current date
+        id: get-date
+        run: |
+          echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
+        shell: bash
+      - name: Setup cache
+        uses: actions/cache@v3
+        with:
+          path: "*.db.*"
+          key: 1-${{ steps.get-date.outputs.date }}
+
+      # Python
+      - name: Install Python 3.9
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+
+      # Execute and store
+      - name: Generate CSV file
+        run: |
+          ./asn2org > asns.csv
+      - name: Upload CSV file
+        uses: actions/upload-artifact@v3
+        with:
+          name: csv
+          path: asns.csv
