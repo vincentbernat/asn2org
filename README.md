@@ -15,6 +15,8 @@ and avoid names such as `COGENT-174` or `AS-SSI`. The script gives
 priority to PeeringDB as it is curated, then uses information from
 IRR. When using the IRR database, the organization name is used.
 
-Use `--help` to get help on how to use the script.
+Use `--help` to get help on how to use the script. You can also
+download the [generated CSV file][].
 
 [PeeringDB]: https://www.peeringdb.com/
+[generated CSV file]: https://vincentbernat.github.io/asn2org/asns.csv
