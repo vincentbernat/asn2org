@@ -1,0 +1,204 @@
+#!/usr/bin/env python3
+
+"""AS number to organization names CSV generator
+
+This script produces a CSV file translating AS numbers to organization
+names. It relies on PeeringDB and IRR databases.
+
+This file is released under the CC0-1.0 license (public domain).
+
+"""
+
+import argparse
+import logging
+import logging.handlers
+import os
+import sys
+import json
+import requests
+import csv
+import gzip
+
+logger = logging.getLogger(os.path.splitext(os.path.basename(sys.argv[0]))[0])
+
+
+class CustomFormatter(
+    argparse.RawDescriptionHelpFormatter, argparse.ArgumentDefaultsHelpFormatter
+):
+    pass
+
+
+def parse_args(args=sys.argv[1:]):
+    """Parse arguments."""
+    parser = argparse.ArgumentParser(
+        description=sys.modules[__name__].__doc__, formatter_class=CustomFormatter
+    )
+
+    parser.add_argument(
+        "--debug", "-d", action="store_true", default=False, help="enable debugging"
+    )
+
+    g = parser.add_argument_group("inputs")
+    g.add_argument(
+        "--peeringdb-url",
+        default="https://www.peeringdb.com/api",
+        type=str,
+        help="PeeringDB API URL",
+    )
+    g.add_argument(
+        "--afrinic-url",
+        default="http://ftp.afrinic.net/dbase",
+        type=str,
+        help="AFRINIC (RIR) URL",
+    )
+    g.add_argument(
+        "--apnic-url",
+        default="http://ftp.apnic.net/apnic/whois",
+        type=str,
+        help="APNIC (RIR) URL",
+    )
+    g.add_argument(
+        "--arin-url",
+        default="http://ftp.arin.net/pub/rr",
+        type=str,
+        help="ARIN (RIR) URL",
+    )
+    g.add_argument(
+        "--lacnic-url",
+        default="http://ftp.lacnic.net/lacnic/irr",
+        type=str,
+        help="LACNIC (RIR) URL",
+    )
+    g.add_argument(
+        "--ripe-url",
+        default="http://ftp.ripe.net/ripe/dbase/split",
+        type=str,
+        help="RIPE (RIR) URL",
+    )
+
+    g = parser.add_argument_group("output")
+    g.add_argument(
+        "--csv-dialect",
+        default="unix",
+        choices=csv.list_dialects(),
+        help="dialect for CSV output",
+    )
+
+    return parser.parse_args(args)
+
+
+def setup_logging(options):
+    """Configure logging."""
+    root = logging.getLogger("")
+    root.setLevel(logging.WARNING)
+    logger.setLevel(options.debug and logging.DEBUG or logging.INFO)
+    ch = logging.StreamHandler()
+    ch.setFormatter(logging.Formatter("%(levelname)s[%(name)s] %(message)s"))
+    root.addHandler(ch)
+
+
+def download(url, target):
+    """Download an URL to the specified target except if it already exists."""
+    if not os.path.exists(target):
+        logger.info(f"download {url}")
+        r = requests.get(url, allow_redirects=True)
+        r.raise_for_status()
+        with open(target, "wb") as f:
+            f.write(r.content)
+    else:
+        logger.info(f"use existing copy for {url}")
+
+
+def irr(*urls):
+    """Return ASN to organization mapping from provided IRR database."""
+    autnums = {}
+    orgs = {}
+
+    for url in urls:
+        logger.debug(f"processing IRR {url}")
+        target = url.split("/")[-1]
+        download(url, target)
+
+        current = None
+        with gzip.open(target, "rt", errors="replace") as input:
+            for line in input:
+                line = line.strip()
+                if not line:
+                    current = None
+                    continue
+                field, _, value = line.partition(":")
+                value = value.strip()
+                if not value:
+                    continue
+
+                if field == "aut-num" and current is None:
+                    current = field
+                    autnum = int(value[2:])
+                elif field == "org" and current == "aut-num":
+                    autnums[autnum] = value.lower()
+                elif (
+                    field == "descr" and current == "aut-num" and autnum not in autnums
+                ):
+                    # For ARIN/LACNIC
+                    autnums[autnum] = value
+                elif field == "organisation" and current is None:
+                    current = field
+                    org = value.lower()
+                elif field == "org-name" and current == "organisation":
+                    orgs[org] = value
+
+    return {asn: orgs.get(org, org) for asn, org in autnums.items()}
+
+
+def peeringdb(peeringdb_url):
+    """Return ASN to organization mapping from PeeringDB."""
+    logger.debug("processing PeeringDB")
+    download(f"{peeringdb_url}/net", "peeringdb.db.json")
+    with open("peeringdb.db.json") as input:
+        data = json.load(input)
+    return {d["asn"]: d["name"] for d in data["data"]}
+
+
+def main(options):
+    """Create CSV file."""
+    asns = {}
+    asns.update(irr(f"{options.afrinic_url}/afrinic.db.gz"))
+    asns.update(
+        irr(
+            f"{options.apnic_url}/apnic.db.aut-num.gz",
+            f"{options.apnic_url}/apnic.db.organisation.gz",
+        )
+    )
+    asns.update(irr(f"{options.arin_url}/arin.db.gz"))
+    asns.update(
+        {
+            asn: name.removeprefix("LACNIC generated autnum for ")
+            for asn, name in irr(f"{options.lacnic_url}/lacnic.db.gz").items()
+        }
+    )
+    asns.update(
+        irr(
+            f"{options.ripe_url}/ripe.db.aut-num.gz",
+            f"{options.ripe_url}/ripe.db.organisation.gz",
+        )
+    )
+    asns.update(peeringdb(options.peeringdb_url))
+
+    data = [(asn, name) for asn, name in asns.items()]
+    data.sort()
+    w = csv.writer(sys.stdout, dialect=options.csv_dialect, quoting=csv.QUOTE_MINIMAL)
+    w.writerow(("asn", "name"))
+    for asn, name in data:
+        w.writerow((asn, name))
+
+
+if __name__ == "__main__":
+    options = parse_args()
+    setup_logging(options)
+
+    try:
+        main(options)
+    except Exception as e:
+        logger.exception("%s", e)
+        sys.exit(1)
+    sys.exit(0)
