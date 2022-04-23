@@ -7,7 +7,8 @@ on:
     - cron: 0 7 1 * *
 
 jobs:
-  build ⚙️:
+  build:
+    name: build ⚙️
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -41,7 +42,8 @@ jobs:
         with:
           name: csv
           path: asns.csv
-  deploy 🚀:
+  deploy:
+    name: deploy 🚀
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
