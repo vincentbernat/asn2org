@@ -16,6 +16,7 @@ import logging
 import logging.handlers
 import os
 import sys
+from datetime import datetime, timedelta
 
 import requests
 
@@ -75,6 +76,13 @@ def parse_args(args=sys.argv[1:]):
         type=str,
         help="RIPE (RIR) URL",
     )
+    v = datetime.strftime(datetime.now() - timedelta(10), "%Y-%m")
+    g.add_argument(
+        "--db-ip-url",
+        default=f"https://download.db-ip.com/free/dbip-asn-lite-{v}.csv.gz",
+        type=str,
+        help="DB-IP IP to ASN lite database",
+    )
 
     g = parser.add_argument_group("output")
     g.add_argument(
@@ -109,7 +117,21 @@ def download(url, target):
         logger.info(f"use existing copy for {url}")
 
 
-def irr(source, *urls):
+def from_csv(source, url, asn=0, name=1):
+    """Return ASN to organization mapping from the provided CSV."""
+    logger.debug(f"processing CSV file {url}")
+    target = url.split("/")[-1]
+    download(url, target)
+
+    with gzip.open(target, "rt") as input:
+        return {
+            int(row[asn]): (row[name], source)
+            for row in csv.reader(input, dialect="unix")
+            if not row[name].startswith("-")
+        }
+
+
+def from_irr(source, *urls):
     """Return ASN to organization mapping from provided IRR database."""
     autnums = {}
     orgs = {}
@@ -150,7 +172,7 @@ def irr(source, *urls):
     return {asn: (orgs.get(org, org), source) for asn, org in autnums.items()}
 
 
-def peeringdb(peeringdb_url):
+def from_peeringdb(peeringdb_url):
     """Return ASN to organization mapping from PeeringDB."""
     logger.debug("processing PeeringDB")
     download(f"{peeringdb_url}/net", "peeringdb.db.json")
@@ -162,31 +184,32 @@ def peeringdb(peeringdb_url):
 def main(options):
     """Create CSV file."""
     asns = {}
-    asns.update(irr("AFRINIC", f"{options.afrinic_url}/afrinic.db.gz"))
+    asns.update(from_csv("DB-IP", options.db_ip_url, asn=2, name=3))
+    asns.update(from_irr("AFRINIC", f"{options.afrinic_url}/afrinic.db.gz"))
     asns.update(
-        irr(
+        from_irr(
             "APNIC",
             f"{options.apnic_url}/apnic.db.aut-num.gz",
             f"{options.apnic_url}/apnic.db.organisation.gz",
         ),
     )
-    asns.update(irr("ARIN", f"{options.arin_url}/arin.db.gz"))
+    asns.update(from_irr("ARIN", f"{options.arin_url}/arin.db.gz"))
     asns.update(
         {
             asn: (name.removeprefix("LACNIC generated autnum for "), source)
-            for asn, (name, source) in irr(
+            for asn, (name, source) in from_irr(
                 "LACNIC", f"{options.lacnic_url}/lacnic.db.gz"
             ).items()
         },
     )
     asns.update(
-        irr(
+        from_irr(
             "RIPE",
             f"{options.ripe_url}/ripe.db.aut-num.gz",
             f"{options.ripe_url}/ripe.db.organisation.gz",
         ),
     )
-    asns.update(peeringdb(options.peeringdb_url))
+    asns.update(from_peeringdb(options.peeringdb_url))
 
     data = [(asn, name, source) for asn, (name, source) in asns.items()]
     data.sort()
