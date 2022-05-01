@@ -2769,7 +2769,6 @@ asn,name,source
 5522,"Telia Lietuva, AB",RIPE
 5523,CREDO-TELECOM,PeeringDB
 5524,Breedband,PeeringDB
-5525,Emirates Integrated Telecommunications Company PJSC,RIPE
 5526,PSSK,PeeringDB
 5528,JSC BALTICOM,RIPE
 5529,Diag Dienstleistungen AG,RIPE
@@ -3424,7 +3423,7 @@ asn,name,source
 6973,Morgan Stanley,DB-IP
 6976,Verizon Business,DB-IP
 6977,"LayerSwitch, Inc",DB-IP
-6979,SAP America Inc.,DB-IP
+6979,"SAP SE, US, PHL",ARIN
 6983,"Deltacom, Inc.",PeeringDB
 6984,Verizon Data Services LLC,DB-IP
 6989,Government Technology Services Inc.,DB-IP
@@ -4222,7 +4221,7 @@ asn,name,source
 8460,PE Nikonov Evgeniy Vitalevich,RIPE
 8461,TOV Trade-Express,RIPE
 8462,Tarr Ltd.,PeeringDB
-8463,SIA S.p.A.,RIPE
+8463,Nexi Payments S.P.A.,RIPE
 8464,Wireless Maingate Nordic AB,RIPE
 8466,Ihsan Dogramaci Bilkent University,PeeringDB
 8467,Ihsan Dogramaci Bilkent University,RIPE
@@ -4231,7 +4230,7 @@ asn,name,source
 8470,MAcomnet,PeeringDB
 8472,British Telecommunications PLC,RIPE
 8473,Bahnhof,PeeringDB
-8474,Riscom S.A.,RIPE
+8474,Riscom,PeeringDB
 8475,"State Educational Institute of Higher Professional Education ""Bashkirskiy State University""",RIPE
 8476,Bureau van Dijk Editions Electroniques SA,RIPE
 8477,Echostar Studio Sp. z o.o.,RIPE
@@ -4940,6 +4939,7 @@ asn,name,source
 9381,HKBN Enterprise Solutions HK Limited,PeeringDB
 9382,darktide.net,APNIC
 9383,Department of Education Skills and Employment,APNIC
+9384,LSHIY Network Technology Limited,APNIC
 9385,Snoopa Community Geelong Pty Ltd,APNIC
 9386,Sky Cable Corporation,APNIC
 9387,Augere Pakistan,PeeringDB
@@ -7427,7 +7427,7 @@ asn,name,source
 12946,"R Cable y Telecable Telecomunicaciones, S.A.U.",RIPE
 12952,Knowledge Path for Information Technology and General Trading,PeeringDB
 12953,Thomson Reuters (Professional) UK Ltd,RIPE
-12954,SIA S.p.A.,RIPE
+12954,Nexi Payments S.P.A.,RIPE
 12956,Telxius Cable,PeeringDB
 12958,Tele2 Russia Network,PeeringDB
 12959,Teleradiocompany Nadezhda Ltd,RIPE
@@ -7857,7 +7857,7 @@ asn,name,source
 13582,"Cowan Systems, LLC",DB-IP
 13583,Allstate Identity Protection,DB-IP
 13585,PowerVT SA,PeeringDB
-13586,SteveYi Network ASN,ARIN
+13586,Tsung-Yi Yu,PeeringDB
 13588,Paychex Incorporated,DB-IP
 13590,Marcus Daly Memorial Hospital Corporation,DB-IP
 13591,Metrored,PeeringDB
@@ -8442,7 +8442,7 @@ asn,name,source
 14424,"A.N. Deringer, Inc.",DB-IP
 14425,Mendocino Community Network,DB-IP
 14426,MacEwan University,ARIN
-14427,"RagingWire Data Centers, Inc.",DB-IP
+14427,RagingWire HI Internet Connect - NTT,PeeringDB
 14428,AS-POMEROY-CORP - Pomeroy,DB-IP
 14430,BWFN,PeeringDB
 14431,Umpqua Community College,DB-IP
@@ -9757,7 +9757,6 @@ asn,name,source
 16265,LeaseWeb Network,PeeringDB
 16266,Canon Europa N.V.,RIPE
 16267,CH Regionalmedien AG,RIPE
-16270,DDB Warszawa Sp. z.o.o.,RIPE
 16273,F-Secure Oyj,RIPE
 16274,ING Bank Slaski S.A.,RIPE
 16276,OVHcloud,PeeringDB
@@ -12032,7 +12031,7 @@ asn,name,source
 19196,TELEFONICA MOVIL DE CHILE S.A.,DB-IP
 19197,"Stefanini, Inc.",DB-IP
 19200,Universidade Federal do Rio Grande do Sul,DB-IP
-19201,"Eastex Telephone Cooperative, Inc.",DB-IP
+19201,Eastex Telephone Cooperative,PeeringDB
 19202,Backbone Data Vault Inc,DB-IP
 19203,Imprivata Inc,DB-IP
 19207,OpenMarket - AS19207,PeeringDB
@@ -13498,7 +13497,7 @@ asn,name,source
 21343,"""Allied Standart Limited"" LLC",RIPE
 21344,Inteligo Financial Services S.A.,RIPE
 21345,Broadcom (EMEA),PeeringDB
-21346,Vistorm Limited,RIPE
+21346,Enterprise Services Information Security UK Limited,RIPE
 21348,Lounea Palvelut Oy,RIPE
 21349,CTS Computers and Telecommunications Systems SAS,RIPE
 21350,Interspace Ltd.,RIPE
@@ -14010,7 +14009,7 @@ asn,name,source
 22054,Hood Canal Communications,DB-IP
 22055,Banco Central do Brasil,DB-IP
 22056,Sitel,DB-IP
-22057,SAP America Inc.,DB-IP
+22057,"SAP SE, US, NS",ARIN
 22058,Summit Voice LLC,DB-IP
 22059,AetherPaw MowNet,PeeringDB
 22060,Netspectrum Internet Solutions,ARIN
@@ -17087,7 +17086,7 @@ asn,name,source
 25969,St. Louis University,DB-IP
 25970,IAC Services LLC,DB-IP
 25971,Milwaukee Public Schools,DB-IP
-25972,SAP Labs,DB-IP
+25972,"SAP SE, US, PAL",ARIN
 25973,"PacketExchange, Inc",DB-IP
 25974,"Hotwire, Inc.",DB-IP
 25975,GreatAccess.com,PeeringDB
@@ -18009,7 +18008,7 @@ asn,name,source
 27338,"Otelco Telephone, LLC",DB-IP
 27343,Monsanto,DB-IP
 27344,Reading Hospital,DB-IP
-27348,"Surfnet Communications, Inc.",DB-IP
+27348,Surfnet Communications,PeeringDB
 27349,"Definitive Networks, Inc.",DB-IP
 27353,Indiana University Health,PeeringDB
 27356,"Park Community Credit Union, Inc.",DB-IP
@@ -19046,7 +19045,7 @@ asn,name,source
 28725,CETIN,PeeringDB
 28726,Tieto Sweden AB,RIPE
 28727,Autoritatea Nationala pentru Administrare si Reglementare in Comunicatii,RIPE
-28728,Infornax Society,RIPE
+28728,Infornax Information Technology Zrt.,RIPE
 28729,Ford Motor Company Limited,RIPE
 28730,Broadband Communications,PeeringDB
 28731,Intrabit GmbH,RIPE
@@ -19089,7 +19088,6 @@ asn,name,source
 28776,SoftServe Ltd.,RIPE
 28780,The PCMS Group plc,RIPE
 28781,Asseco See Teknoloji AS,RIPE
-28782,Vistorm Limited,RIPE
 28783,Netafim LTD,RIPE
 28784,OKB-TELECOM OJSC,RIPE
 28785,Asseco Data Systems,PeeringDB
@@ -19763,7 +19761,6 @@ asn,name,source
 29673,"Imprensa Nacional-Casa da Moeda, S.A.",RIPE
 29674,GS Telecom Africa,PeeringDB
 29676,Gradwell,PeeringDB
-29677,AXIANS ICT Austria GmbH,RIPE
 29679,Liberation SARL,RIPE
 29680,"VozTelecom Sistemas, S.L.",PeeringDB
 29682,Landeskreditbank Baden-Wuerttemberg - Foerderbank,RIPE
@@ -21118,7 +21115,7 @@ asn,name,source
 31532,Hestview Limited,RIPE
 31533,Vattenfall Energy Trading Netherlands NV,RIPE
 31534,ING Bank N.V. - Sofia Branch,RIPE
-31535,Vidgital Ltd,RIPE
+31535,Promontoria Ltd,RIPE
 31537,Erdee Media BV,RIPE
 31540,Aquanet S.A.,RIPE
 31541,Krea Icerik Hizmetleri ve Produksiyon A.S,RIPE
@@ -23164,7 +23161,7 @@ asn,name,source
 34462,"DITEC, a.s.",RIPE
 34463,Super Sport,PeeringDB
 34464,Media Sououz Ltd.,RIPE
-34465,NCRYPTD,PeeringDB
+34465,NCRYPTD AS34465,PeeringDB
 34466,Emilio Piovesan,RIPE
 34467,"JSC Telephone Company ""Sotcom""",RIPE
 34468,S.P.A. Societa' Servizi Informatici Sammarinesi - S.S.I.S.,RIPE
@@ -23960,7 +23957,7 @@ asn,name,source
 35343,Generali Investments d.o.o.,RIPE
 35344,SYNTEN Sarl,RIPE
 35345,CJSC ASNOVA holding,RIPE
-35346,SC ITNS.NET SRL,RIPE
+35346,ITNS.NET,PeeringDB
 35347,Prime Telecom SRL,RIPE
 35348,Computer Wired,PeeringDB
 35349,ViewControl B.V.,RIPE
@@ -24799,6 +24796,7 @@ asn,name,source
 36407,Software Engineering Institute,DB-IP
 36408,CDNetworks Inc.,PeeringDB
 36410,"Vizient, Inc.",DB-IP
+36412,Drexel University,ARIN
 36413,Loyola University Maryland,DB-IP
 36414,"Carrington, Coleman, Sloman and Blumenthal, LLP",DB-IP
 36415,"Hotel Nikko of San Francisco, Inc.",DB-IP
@@ -29049,7 +29047,6 @@ asn,name,source
 41601,"NEO Print, Ltd",PeeringDB
 41602,Nicholas William Hilliard,RIPE
 41603,ALTOVA GMBH,RIPE
-41604,Steven Sanders,RIPE
 41605,SCOOP IT SAS,RIPE
 41606,Logos Technologies,PeeringDB
 41607,PROJECT MANAGEMENT LIMITED,RIPE
@@ -29702,7 +29699,6 @@ asn,name,source
 42280,WebNet Solutions SRL,RIPE
 42281,Rachfahl IT-Solutions GmbH & Co. KG,RIPE
 42282,Rick Mur,RIPE
-42283,Elaborated Networks GmbH,RIPE
 42284,Cameron Ltd,RIPE
 42285,Global Service SRL,RIPE
 42287,KKTC Merkez Bankasi,RIPE
@@ -29907,7 +29903,6 @@ asn,name,source
 42496,"Additional Liability Company ""Condy""",RIPE
 42497,SAFEDC spolka z o.o.,RIPE
 42498,Gerkon,PeeringDB
-42499,Artificial Solutions Scandinavia AB,RIPE
 42500,FOOBAR AS,PeeringDB
 42501,Information Technologies private company,RIPE
 42502,Patriot Telecom Ltd,RIPE
@@ -31283,7 +31278,6 @@ asn,name,source
 43961,FISERV POLSKA SP. Z O.O.,RIPE
 43962,INTEN Sp. z o. o.,RIPE
 43963,BIURO MAKLERSKIE BANKU BGZ,RIPE
-43964,KOMPYUTER KOMMUNIKATSIYA Ltd,RIPE
 43965,Tehran University of Medical Science,RIPE
 43966,IT REGION,PeeringDB
 43967,TEREMKY LAN ISP LLC,RIPE
@@ -31332,7 +31326,6 @@ asn,name,source
 44012,LASOTEL SAS,RIPE
 44013,Sandvik IT Services AB,RIPE
 44014,VMI,PeeringDB
-44015,Landgard Management Inc,RIPE
 44016,XS Usenet B.V.,RIPE
 44017,Ramona Media GmbH,RIPE
 44018,active logistics GmbH,RIPE
@@ -31697,7 +31690,6 @@ asn,name,source
 44410,Tose Sarmayeh Gozari Entekhab Group Ltd.,RIPE
 44411,EKSI Ltd.,RIPE
 44412,PJSC Rostelecom,RIPE
-44413,Home A/S,RIPE
 44414,OpenNumbers GmbH,RIPE
 44415,Netpartner Polska sp. z o.o.,RIPE
 44416,Satellite Net Service,PeeringDB
@@ -31989,7 +31981,7 @@ asn,name,source
 44712,eHAMnet,PeeringDB
 44713,Teknoser A.S,RIPE
 44715,Globalcom Ltd.,RIPE
-44716,D-hosting,PeeringDB
+44716,d-hosting,PeeringDB
 44717,Videoluc S.A.,RIPE
 44718,Fraport Twin Star Airport Management AD,RIPE
 44719,APS Consumer Finance IFN S.A.,RIPE
@@ -32159,7 +32151,6 @@ asn,name,source
 44884,Regional Online Systems Ltd.,RIPE
 44885,Ello communications S.A.,RIPE
 44886,Elana Financial Holding EAD,RIPE
-44887,Precise software solutions Israel 2007 LTD,RIPE
 44888,HUBER+SUHNER AG,RIPE
 44889,Farhang Azma Communications Company,PeeringDB
 44890,ZAO Astrakhan Digital Television,RIPE
@@ -32523,7 +32514,7 @@ asn,name,source
 45292,Lembaga Ilmu Pengetahuan Indonesia - LIPI,APNIC
 45293,Universitas Terbuka,APNIC
 45294,PT. Wanriau Indoxp,APNIC
-45295,PT. Cipta Informatika Cemerlang,APNIC
+45295,Cipta Informatika Cemerlang,PeeringDB
 45296,iMADE - internet masuk desa,PeeringDB
 45297,Indonesia Network Information Center,APNIC
 45298,INTERLINK TECHNOLOGY,PeeringDB
@@ -34116,7 +34107,6 @@ asn,name,source
 47308,Web Gostaran Bandar Company (PJS),RIPE
 47309,q.beyond AG,RIPE
 47310,CIMAL - Comunidade Intermunicipal do Alentejo Litoral,RIPE
-47311,"Transport Republican unitary enterprise ""Brest branch of Belarusian railway""",RIPE
 47312,Zipping Care S.L.,RIPE
 47313,Joint Stock Company TransTeleCom,RIPE
 47314,VINCI SA,RIPE
@@ -34382,6 +34372,7 @@ asn,name,source
 47581,NSFOCUS Technologies UK Limited,RIPE
 47582,Anson Network AS47582,PeeringDB
 47583,Hostinger International,PeeringDB
+47584,Stelia Ltd,RIPE
 47585,Gestevision S.A.,RIPE
 47586,Dmitriy V. Kozmenko,RIPE
 47587,VIP Computer Bt.,RIPE
@@ -34400,7 +34391,6 @@ asn,name,source
 47600,Site! ltd.,RIPE
 47601,Globecomm Europe B.V.,RIPE
 47602,Profisol Telecom,PeeringDB
-47603,Tptb Ltd,RIPE
 47604,Meshnet ltd.,RIPE
 47605,FNE-Finland Oy,PeeringDB
 47606,Communication and Information Technology Commission (CITC),RIPE
@@ -34485,7 +34475,7 @@ asn,name,source
 47688,Fastic,PeeringDB
 47689,Pudu AS47689,PeeringDB
 47690,TNGNET B.V.,RIPE
-47691,Infoteh LLC,RIPE
+47691,Infoteh LLC,DB-IP
 47692,Nessus GmbH,PeeringDB
 47693,Legend Communications,PeeringDB
 47694,Didan Group,PeeringDB
@@ -34560,6 +34550,7 @@ asn,name,source
 47766,Haifa Port Company Ltd,RIPE
 47767,Regionalni centrum Olomouc s.r.o.,RIPE
 47768,Intis Telecom LLP,RIPE
+47769,Elektrobau Mulfingen GmbH trading as ebm-papst Mulfingen GmbH & Co. KG,RIPE
 47770,"Varonis Systems, LTD",RIPE
 47771,Presler Ltd.,RIPE
 47772,"LLC ""MANAGEMENT COMPANY ULF""",RIPE
@@ -34610,6 +34601,7 @@ asn,name,source
 47821,INTERNET INVEST LIMITED,RIPE
 47822,"Public institution ""Novgorod information and analytical center""",RIPE
 47823,Netwise Hosting Ltd,RIPE
+47824,Rising Digital Teknoloji Ltd. Sti.,RIPE
 47826,BENTELER Business Services GmbH,RIPE
 47827,UK Metalloinvest LLC,RIPE
 47828,Valitor hf,RIPE
@@ -34852,7 +34844,7 @@ asn,name,source
 48067,Distinct New Media,PeeringDB
 48068,VISONIC LIMITED,RIPE
 48069,Metropole Television SA,RIPE
-48070,DSM (GB) Limited,PeeringDB
+48070,DSM (GB),PeeringDB
 48071,Northcote Internet Limited,RIPE
 48072,ALSATIS,PeeringDB
 48073,Virtual Dalnegorsk Ltd.,RIPE
@@ -35024,7 +35016,7 @@ asn,name,source
 48245,Digit One LLC,RIPE
 48246,PKO BP FINAT Sp. z o.o.,RIPE
 48247,Government of Kaliningrad region,RIPE
-48248,ISD Huta Czestochowa Sp. z o.o.,RIPE
+48248,Liberty Czestochowa Sp. z o.o.,RIPE
 48249,"""Capital Telecom"" Limited Company",RIPE
 48250,Web Dedicated SRL,RIPE
 48251,NOIXA,PeeringDB
@@ -36068,6 +36060,7 @@ asn,name,source
 49313,Seva-Host Ltd,RIPE
 49314,J.M.S. SAS,RIPE
 49315,Centrsvyaz CJSC,RIPE
+49316,NCRYPTD  AS49316,PeeringDB
 49317,Abdul Kadir Al-Muhaidib & Sons Company CJS,RIPE
 49318,Cancom UK Managed Services Limited,RIPE
 49319,Zinchenko Vasiliy Anatolevich,RIPE
@@ -36550,7 +36543,7 @@ asn,name,source
 49804,Mips Group LLC,RIPE
 49806,Absolutbank CJSC,RIPE
 49807,Landmark Technologies (UK) Ltd,RIPE
-49808,Energie AG Oberösterreich Telekom GmbH,PeeringDB
+49808,powerSPEED,PeeringDB
 49809,"Optima Communications, LLC",RIPE
 49810,ip-it consult GmbH,RIPE
 49811,Uzlovaya.net Ltd,RIPE
@@ -36560,7 +36553,7 @@ asn,name,source
 49815,Host2 LTD,RIPE
 49816,MTS PJSC,RIPE
 49817,TRK Skif-TV LLC,RIPE
-49818,KABELSAT-2000 Kft.,RIPE
+49818,ELIN.hu Informatikai Szolgaltato es Tanacsado Kft.,RIPE
 49819,Connexity-EU,PeeringDB
 49820,Pictura Database Publishing,PeeringDB
 49821,Electrica LLC,RIPE
@@ -36865,6 +36858,7 @@ asn,name,source
 50132,Wergames OU,RIPE
 50133,Wimifi Systems,PeeringDB
 50134,FTZ Autodele og Vaerktoej A/S,RIPE
+50135,CXS Connected Enterprise Ltd.,RIPE
 50136,Kurt Schreckenbauer trading as Comtrend,RIPE
 50137,Nagarro Software SRL,RIPE
 50138,Centrul Tehnic Comercial Alfa SA,RIPE
@@ -37330,6 +37324,7 @@ asn,name,source
 50614,SOFTWARE SI ECHIPAMENTE ELECTRONICE PENTRU DEZVOLTARE (SEED) SRL,RIPE
 50615,CJSC AIKOM,RIPE
 50616,One Telecommunications sh.a.,RIPE
+50617,Hutchison 3G UK Limited,RIPE
 50618,Liazo,PeeringDB
 50619,VISIUM LLC,RIPE
 50620,Blue Networks Technologies,PeeringDB
@@ -37478,7 +37473,7 @@ asn,name,source
 50770,Nerdalize,PeeringDB
 50771,GigaLink Ltd.,RIPE
 50772,"Ukrtranstelecom tc, ltd",RIPE
-50773,Anana Ltd,RIPE
+50773,Sabio Ltd.,RIPE
 50774,Noor Capital Markets for Financial Brokerage Company KSCC,RIPE
 50775,OOO 24 chasa TV,RIPE
 50776,System Telecom,PeeringDB
@@ -40121,7 +40116,7 @@ asn,name,source
 53765,San Francisco Federal Credit Union,DB-IP
 53766,VMware SASE,PeeringDB
 53767,iCastCenter,PeeringDB
-53768,Laboratory Corporation of America,DB-IP
+53768,Laboratory Corporation of America,PeeringDB
 53769,Best Best & Krieger LLP,DB-IP
 53770,iQor US Inc.,DB-IP
 53775,"Sekisui Polymer Innovations, LLC",DB-IP
@@ -42088,7 +42083,6 @@ asn,name,source
 56324,Logitus,PeeringDB
 56325,Diogelo Ltd.,RIPE
 56326,9-ka.ru Ltd.,RIPE
-56328,CoelWireless Andrzej Deczynski,RIPE
 56329,Gigaclear,PeeringDB
 56330,"JSC ""ER-Telecom Holding""",RIPE
 56331,InfoLink LTD,RIPE
@@ -42323,7 +42317,7 @@ asn,name,source
 56568,X-COMMUNICATION,PeeringDB
 56569,Komercijalna banka a.d. Beograd,RIPE
 56570,DAVA R&R SRL,RIPE
-56571,EXTREMEnA DE COMUNICACIONES POR CABLE SL,RIPE
+56571,HISPANICA DE TELECOMUNICACIONES Y SERVICIOS INTEGRALES S.L.,RIPE
 56572,JUPO spol. s r.o.,RIPE
 56573,OCTN Networks AB,RIPE
 56574,A2 Ltd,RIPE
@@ -43034,7 +43028,6 @@ asn,name,source
 57301,ForteBank JSC.,RIPE
 57302,mernet internet hizmetleri elektronik esya ithalat ihracat sanayi ve ticaret limited sirketi,RIPE
 57303,"LTD ""Luis+Severo-Zapad""",RIPE
-57304,SUPERONLAYN LTD,RIPE
 57305,Comarch S.A.,RIPE
 57306,Rambler Internet Holding LLC,RIPE
 57307,Blaze Networks Ltd,RIPE
@@ -43207,7 +43200,7 @@ asn,name,source
 57478,Dar.Net,PeeringDB
 57479,RIFT ltd.,RIPE
 57480,Adam Siemieniako Projectpol,RIPE
-57481,Haonan Yang trading as 'August Internet',RIPE
+57481,August Internet AS57481,PeeringDB
 57482,"OJSC ""SMP Bank""",RIPE
 57483,Ian Chilton,PeeringDB
 57484,Federal State Institution Russian Scientific Center Kurchatovsky institute,RIPE
@@ -43640,7 +43633,7 @@ asn,name,source
 57913,The British University in Dubai,RIPE
 57914,Bank Audi SAL - Audi Saradar Group,RIPE
 57915,Sinch Denmark ApS,RIPE
-57916,Larom TV SRL,RIPE
+57916,Larom TV,PeeringDB
 57918,ACOD JSC,RIPE
 57919,Wicom Ltd.,RIPE
 57920,Brillant Auto Kft.,RIPE
@@ -44062,7 +44055,7 @@ asn,name,source
 58342,"Misaka Network, Inc.",RIPE
 58343,Visolit Sweden AB,RIPE
 58344,"JSC ""ER-Telecom Holding""",RIPE
-58345,"DISENADORES INFORMATICOS Y TECNOLOGICOS, S.L.",RIPE
+58345,"DINFOTEC, S.L.",RIPE
 58346,KASSENZAHNAERZTLICHE VEREINIGUNG NORDRHEIN,RIPE
 58347,AiK Ltd.,RIPE
 58348,BAYER TURK KIMYA SANAYI LIMITED SIRKETI,RIPE
@@ -44358,7 +44351,7 @@ asn,name,source
 58688,Radiant Communications Bangladesh,PeeringDB
 58689,ICC Communication,PeeringDB
 58690,Internet East Co.,PeeringDB
-58691,Delta Infocom Limited.,PeeringDB
+58691,Delta Infocom AS58691,PeeringDB
 58692,TRUE INTERNET CORPORATION CO. LTD.,APNIC
 58693,TTSL-ISP DIVISION,APNIC
 58695,United Nations Children's Fund (UNICEF),APNIC
@@ -44407,7 +44400,7 @@ asn,name,source
 58749,Delta Infocom Limited,APNIC
 58750,Logic Plus,PeeringDB
 58751,Nodens Solutions Pte Ltd,APNIC
-58752,Delta Infocom Limited,APNIC
+58752,Delta Infocom AS58752,PeeringDB
 58755,Miller Ford Technology Pte Ltd,APNIC
 58756,ePLDT Inc.,APNIC
 58757,Ace Wireless Network Philippines Inc.,APNIC
@@ -45152,7 +45145,7 @@ asn,name,source
 59578,Groupe Tenor SAS,RIPE
 59579,ITM POLAND Sp. z o.o.,RIPE
 59580,Batterflyai Media ltd.,RIPE
-59581,BT Lancashire Services Limited,RIPE
+59581,Lancashire County Council,RIPE
 59582,Avus Capital OOD,RIPE
 59583,Network Kazakhstan,PeeringDB
 59584,INDIKOM LLC,RIPE
@@ -45763,7 +45756,7 @@ asn,name,source
 60201,DISTRIBUTIE ENERGIE ELECTRICA ROMANIA S.A.,RIPE
 60202,Kivi TV Ltd.,RIPE
 60203,Innovaciones Tecnlogicas del Sur S.L.,RIPE
-60204,Hewlett Packard France S.A.S.,RIPE
+60204,Enterprise Services France SAS,RIPE
 60205,Magine Pro AB,RIPE
 60206,SIA Maklaut,RIPE
 60207,Veepee IIS,PeeringDB
@@ -46153,7 +46146,7 @@ asn,name,source
 60597,S. CHRISTOFOROU & SIA O.E.,RIPE
 60598,OOO Upravljajushchaja kompanija Labirint,RIPE
 60599,KOMPAS TELECOM Ltd,RIPE
-60600,"""Hearst Shkulev Digital Technologies"" Limited Liability Company",RIPE
+60600,"""Shkulev Digital Technologies"" Limited Liability Company",RIPE
 60601,Association Neutral Network Lab,RIPE
 60602,Inovare-Prim,PeeringDB
 60603,"""Utel"" Ltd.",RIPE
@@ -46171,7 +46164,7 @@ asn,name,source
 60615,COMPANIA NATIONALA POSTA ROMANA S.A.,RIPE
 60616,Oy IBM Finland Ab,RIPE
 60617,WGD Orion S.A.,RIPE
-60618,Hewlett Packard France S.A.S.,RIPE
+60618,Enterprise Services France SAS,RIPE
 60619,TelcoNet Kft.,RIPE
 60620,Societe du Parc du Futuroscope,RIPE
 60621,Authority of Developing Al-Madinah Al-Munawarah,RIPE
@@ -47172,7 +47165,7 @@ asn,name,source
 61719,SP TELECOMUNICAÇÕES,PeeringDB
 61720,Susan C. Correia Padilha,DB-IP
 61721,PETROLEO BRASILEIRO AS61721,PeeringDB
-61722,FLACKNET TELECOMUNICAÃ”Ã”ES LTDA ME,DB-IP
+61722,Flacknet Telecom,PeeringDB
 61723,DIGINET INFORMATICA BAHIA LTDA - ME,DB-IP
 61724,MASTERNET TELECOM LTDA ME,DB-IP
 61725,MR Telecom,DB-IP
@@ -47866,7 +47859,7 @@ asn,name,source
 62448,WAVEZONE SRL,RIPE
 62449,Sybell Informatika Kft,RIPE
 62450,TELECOMPROEKT Ltd.,RIPE
-62451,Ing. Rudolf Geiger & Co,RIPE
+62451,T-Mobile Austria GmbH,RIPE
 62452,Al-Imam Muhammad Ibn Saud Islamic University,RIPE
 62453,Bagem.lv SIA,RIPE
 62454,Spectom-Technology,PeeringDB
@@ -48644,7 +48637,7 @@ asn,name,source
 63494,Inovasi Jaringan Nusantara,PeeringDB
 63495,PT Satelit Multimedia Indonesia,APNIC
 63496,Universitas Negeri Papua,APNIC
-63497,PT. Arana Teknologi Indonesia,APNIC
+63497,Arana Teknologi Indonesia,PeeringDB
 63498,PT. SURYAPUTRA ADIPRADANA,APNIC
 63499,Universitas Negeri Padang,PeeringDB
 63500,Lembaga Pengembangan Teknologi Informasi dan Komunikasi,PeeringDB
@@ -51337,7 +51330,7 @@ asn,name,source
 133157,MicroFocus (M) Sdn Bhd,APNIC
 133158,WELL-POWER Tech Corp,APNIC
 133159,Mammoth Media,PeeringDB
-133160,HGC Global Communications Limited,APNIC
+133160,AMS-IX Singapore Route Servers,PeeringDB
 133161,MBIT Technologies Pty Ltd,APNIC
 133162,Voyager Internet Ltd.,APNIC
 133163,PP Ontime Company Limited,APNIC
@@ -51440,7 +51433,7 @@ asn,name,source
 133262,Tracmail I Pvt Ltd,APNIC
 133263,Elxire IT Services Pvt. Ltd.,APNIC
 133264,VISION INFOTEL INDIA PVT LTD,APNIC
-133265,GATIK GREENERGY PVT LTD,APNIC
+133265,Alpha Glamour Private limited,DB-IP
 133266,NET TECH SERVICES INDIA PVT. LTD.,APNIC
 133267,V-fibernet India Pvt. Ltd.,APNIC
 133268,Shakti Cables And Network Tools,APNIC
@@ -52300,7 +52293,7 @@ asn,name,source
 134135,dA Tomato (Pvt.) Ltd.,APNIC
 134136,B.I.C (Cambodia) Bank PLC,APNIC
 134137,"True Internet Data Center, Myanmar",PeeringDB
-134138,NEXTDC Limited,APNIC
+134138,AXONVX,PeeringDB
 134139,Harbour ISP Pty LTD,PeeringDB
 134140,Philippine Long Distance Telephone Co.,APNIC
 134141,B2B Wholesale Pty Ltd,APNIC
@@ -54437,7 +54430,7 @@ asn,name,source
 136315,Wizone Tech Solutions Pvt. Ltd.,APNIC
 136316,PRATHAMESH BROADBAND PRIVATE LIMITED,APNIC
 136317,Giga Beam Broadband Pvt.ltd,APNIC
-136318,Inter Net Ly,PeeringDB
+136318,Inter Net LY,PeeringDB
 136319,Acebrowse,PeeringDB
 136320,World Vision Networks Private Limited,APNIC
 136321,Velankani Electronics Private Limited,APNIC
@@ -55303,7 +55296,7 @@ asn,name,source
 137188,Australian Catholic University Limited,APNIC
 137189,Bornil Networks System Limited,APNIC
 137190,Apple Communication Ltd.,APNIC
-137191,Couponz villa,APNIC
+137191,COUPONZVILLA,APNIC
 137192,BIDFOOD AUSTRALIA LIMITED,APNIC
 137193,"Neitai InfoTech Co., Ltd",APNIC
 137194,Zuora Inc,APNIC
@@ -59397,7 +59390,7 @@ asn,name,source
 141369,Meezan Bank Limited,APNIC
 141370,"CAMBODIAN TXT TELECOM CO., LTD.",APNIC
 141371,Madison Technologies,PeeringDB
-141372,Logitech Cable (Private) Limited,APNIC
+141372,Logitech Cable,PeeringDB
 141373,HOSTCRAM AS141373,PeeringDB
 141374,HostUS Solutions LLC,APNIC
 141375,Central Internet Link,APNIC
@@ -59783,7 +59776,6 @@ asn,name,source
 141762,Zodiac Power Chittagong Ltd.,APNIC
 141763,Titas Enterprise,APNIC
 141764,Woi,APNIC
-141765,Aperture Science Limited,APNIC
 141766,Agilenaas,PeeringDB
 141767,C G Communications Pvt. Ltd,PeeringDB
 141768,HONG KONG BRIDGE INFO-TECH LIMITED,APNIC
@@ -61523,7 +61515,7 @@ asn,name,source
 149533,MRKR COMMUNICATIONS PRIVATE LIMITED,APNIC
 149534,Gazon Technologies Pvt.ltd.,APNIC
 149535,FIRST MILE DIGITAL PRIVATE LIMITED,APNIC
-149536,NSB NETWORKS PVT LTD,APNIC
+149536,NSB NETWORKS,PeeringDB
 149537,VAST WEB INDIA PRIVATE LIMITED,APNIC
 149538,POLY INFORMATICS PRIVATE LIMITED,APNIC
 149539,ARHAM WEALTH MANAGEMENT PVT LTD,APNIC
@@ -61537,12 +61529,19 @@ asn,name,source
 149547,INDIGO GATEWAY,APNIC
 149548,LAUREL OS SOLUTIONS,APNIC
 149549,AVD INFOCOM PRIVATE LIMITED,APNIC
+149550,MAZENTA CREATIONS,APNIC
 149551,CONFIAR DIGITAL TECHNOLOGIES,PeeringDB
 149552,NTHCLOUD LLP,APNIC
+149553,TULIP SOLUTIONS,APNIC
 149555,SHISHERYA IT SOLUTIONS PRIVATE LIMTED,APNIC
 149556,Quantum Link Communications Pvt. Ltd,APNIC
+149557,GRB INFOTECH,APNIC
+149560,AAYOG NETWORK PVT LTD,APNIC
+149562,Cl Internet Service Private Limited,APNIC
 149563,PREFIX NETSOL PRIVATE LIMITED,APNIC
 149570,Speech Tell Communication Private Limited,APNIC
+149571,Edelweiss Securities Limited,APNIC
+149600,NIXI-CSC Data center,APNIC
 149602,Swot Services,APNIC
 149603,Suryoday Small Finance Bank Limited,APNIC
 149604,Mrridsys Technologies,PeeringDB
@@ -61572,7 +61571,7 @@ asn,name,source
 149637,Red Network Ltd,APNIC
 149638,Elma Multimedia,APNIC
 149639,Morgan Stanley Management Service (Shanghai) Limited,APNIC
-149640,CS Loxinfo Public Company Limited,APNIC
+149640,HUAWEI CDN,PeeringDB
 149641,Hong Kong Beecloud System Technology Services Limited,APNIC
 149642,Facebook Singapore Pte Ltd.,APNIC
 149643,Click Communication,APNIC
@@ -61637,6 +61636,15 @@ asn,name,source
 149702,PT Gian Nugraha Teknologi Indonesia,APNIC
 149703,SMK Negeri 5 Malang,APNIC
 149704,PT Panglima Kamayo Media,APNIC
+149705,PT Wijaya Trimitra Indonesia,APNIC
+149706,PT Aegis Ekakarsa Garuda Informatika Semesta,APNIC
+149707,PT Akses Data Internusa,APNIC
+149708,PT Analitika Digital Inovasi,APNIC
+149709,Universitas Amikom Purwokerto,APNIC
+149710,PT. PARSAORAN GLOBAL DATATRANS,APNIC
+149711,PT. PARSAORAN GLOBAL DATATRANS,APNIC
+149712,PT Lingkar Kabel Telekomunikasi,APNIC
+149713,PT Lentera Digital Nusantara,APNIC
 149761,Infinity Consulting Technology Sdn. Bhd.,APNIC
 149762,KSC Commercial Internet Co.Ltd.,APNIC
 149763,"Nanjing Caiyanrui Network Technology Co., Ltd",APNIC
@@ -61661,7 +61669,7 @@ asn,name,source
 149782,Brisk Technology,APNIC
 149783,CoreNET Inc.,PeeringDB
 149784,Bespoke Technology,APNIC
-149785,THE REBEL FLEET AUST PTY LTD,APNIC
+149785,THE REBEL FLEET AUST,PeeringDB
 149786,Saffi Networks,APNIC
 149787,PPIP International Limited,APNIC
 149788,UPNET (PRIVATE) LIMITED,APNIC
@@ -61677,6 +61685,15 @@ asn,name,source
 149798,Innodata-Isogen India Pvt Ltd,APNIC
 149799,Visa Consolidated Support Services India Private Limited,APNIC
 149800,Office of Info.Tech. Admin. for Educational Development,APNIC
+149801,C.G. Education Pvt. Ltd,APNIC
+149802,MT Cable Television Network,APNIC
+149803,Excise THAILAND,APNIC
+149804,FOJIP TECHNOLOGY LIMITED,APNIC
+149805,Symphony Communication Public Company Limited,APNIC
+149806,Speed Star Dot Net,APNIC
+149807,Mirsarai Online,APNIC
+149808,"Digital City Construction Leading Group Office of Xiongan New Area, Hebei Province",APNIC
+149809,Sky Technologies,APNIC
 196608,INTERNET AG Global Network,RIPE
 196609,PCS Professional Communication Systems GmbH,RIPE
 196610,DE-CIX Academy Educational Network,PeeringDB
@@ -61924,7 +61941,7 @@ asn,name,source
 196955,Antaro ltd.,RIPE
 196956,Net-spring s.r.l.,RIPE
 196957,Center of Information Technologies Kharkiv Online,PeeringDB
-196958,MVM NET Zrt.,RIPE
+196958,AH NET Zrt.,RIPE
 196959,Namex Route Servers,PeeringDB
 196961,Teleport LLC,RIPE
 196962,NSI (Holdings) Limited,RIPE
@@ -62364,7 +62381,7 @@ asn,name,source
 197521,SPAN d.d.,RIPE
 197522,Kalush Information Network,PeeringDB
 197523,DV Info Informatikai kft.,RIPE
-197524,CCNST Deutschland GmbH,PeeringDB
+197524,LEONET Group GmbH,PeeringDB
 197525,ECA Etablissement Cantonal des Assurances,RIPE
 197526,Russian New University,RIPE
 197527,Miejskie Przedsiebiorstwo Komunikacyjne SA w Krakowie,RIPE
@@ -62668,7 +62685,6 @@ asn,name,source
 197907,"AKSON, poslovno in informacijsko svetovanje, d.o.o.",RIPE
 197908,MYLAPS BV,RIPE
 197910,LUBGIP Sp. z o.o.,RIPE
-197911,Emirates Integrated Telecommunications Company PJSC,RIPE
 197912,Aktek Bilgi Iletisim Teknolojisi Sanayi Ve Ticaret AS,RIPE
 197913,Cadence Networks AS197913,PeeringDB
 197914,Ecritel - Defcon,PeeringDB
@@ -62939,7 +62955,6 @@ asn,name,source
 198247,Star Satellite Communications Company - PJSC,RIPE
 198248,Richard Filip,RIPE
 198249,Ops One AG,PeeringDB
-198250,ELDATA prazska s.r.o.,RIPE
 198251,LEOTEL Ltd.,RIPE
 198252,ELTA KABEL d.o.o.,PeeringDB
 198253,Kukushkin Anatoly Valerievich,RIPE
@@ -63671,7 +63686,7 @@ asn,name,source
 199150,Excedo Networks AB,PeeringDB
 199151,MAGIS-MEDIANET Jacek Krzciuk,RIPE
 199153,PSF Maximum LLC,RIPE
-199154,Swedish Radio Supply i Wermland AB,RIPE
+199154,Swedish Northcom AB,RIPE
 199155,Direcao Geral de Estatisticas da Educacao e Ciencia,RIPE
 199156,StackPath LLC,RIPE
 199159,DATASIX,PeeringDB
@@ -66946,7 +66961,6 @@ asn,name,source
 203347,YALWA,PeeringDB
 203348,Hellenic Telecommunications and Post Commission,PeeringDB
 203349,ABICOM SAS,RIPE
-203350,oneclick AG,RIPE
 203351,Uber International B.V.,RIPE
 203352,NEYRIAL CENTRE FRANCE,PeeringDB
 203353,Agrisovgaz Ltd.,RIPE
@@ -67004,7 +67018,6 @@ asn,name,source
 203411,FORTUNA GAME a.s.,RIPE
 203412,KUES DATA GmbH,RIPE
 203413,nettel sas,RIPE
-203414,Sofia Municipality,RIPE
 203416,I.T Communications Limited,PeeringDB
 203417,LHPL,PeeringDB
 203419,SONICATEL S.R.L.,RIPE
@@ -68330,7 +68343,7 @@ asn,name,source
 205042,FELKATEC Software GmbH & Co. KG,RIPE
 205044,Pro-Line comp s.r.o.,RIPE
 205045,NBI SIA,RIPE
-205046,FZI Forschungszentrum Informatik am Karlsruher Institut fuer Technologie,RIPE
+205046,FZI Forschungszentrum Informatik,RIPE
 205047,"JSC ""Gevura""",RIPE
 205048,PE Akhremenko Sergiy Victorovich,RIPE
 205049,IQ-TECHNOFAST,PeeringDB
@@ -68534,15 +68547,18 @@ asn,name,source
 205300,Sunfox s.r.o.,RIPE
 205301,SC ITNS.NET SRL,RIPE
 205302,Plasser und Theurer Export von Bahnbaumaschinen Gesellschaft m.b.H.,RIPE
+205303,SOLAREDGE TECHNOLOGIES LTD.,RIPE
 205304,Zorgdomein Nederland B.V.,RIPE
 205305,Dataline Ltd,RIPE
 205306,ADVSCHEMA,PeeringDB
+205307,Private Mobility Nederland B.V.,RIPE
 205308,ITI NEOVISION SPOLKA AKCYJNA,RIPE
 205309,Prodec Networks Ltd,RIPE
 205310,Beiersdorf Shared Services GmbH,RIPE
 205311,Cambridge Fibre Networks Ltd.,RIPE
 205312,"OOO ""Sovremennye setevye tekhnologii""",RIPE
 205313,Infostud 3 doo Subotica,RIPE
+205314,TGW Logistics Group GmbH,RIPE
 205315,Jean-Remy Buchs,RIPE
 205316,Supporta Interactiva B.V.,RIPE
 205317,AzFiberNet Ltd.,RIPE
@@ -68553,11 +68569,14 @@ asn,name,source
 205323,Alessandro Ghedini,PeeringDB
 205324,LLC Hyperglobus,RIPE
 205325,EOBUWIE.PL LOGISTICS Sp. z o.o.,RIPE
+205326,ROST LLC,RIPE
 205327,Rackmarkt SL,RIPE
+205328,spirit,PeeringDB
 205330,Ari@net,PeeringDB
 205331,WI-MAX NET Ltd.,RIPE
 205332,Itiviti Group AB,RIPE
 205333,Arcadiz Telecom NV,RIPE
+205334,"FIBERPLUS COMUNICATIONS, SL",RIPE
 205335,Posta ve Telgraf Teskilati Anonim Sirketi,RIPE
 205336,CITIVI Sp. z o.o.,RIPE
 205337,Hardy Fisher Services Limited,RIPE
@@ -68565,6 +68584,7 @@ asn,name,source
 205339,Steve Reinhold,RIPE
 205340,IMC Island ehf,RIPE
 205341,SEDE SISTEMAS Y COMUNICACIONES S.L.,RIPE
+205342,LLC DATA CENTER,RIPE
 205343,GP-NET Ltd.,RIPE
 205344,Telerys,PeeringDB
 205345,HoralNET s.r.o.,RIPE
@@ -68573,14 +68593,17 @@ asn,name,source
 205348,Lebanese Swiss Bank s.a.l,RIPE
 205349,"AKB ""Peresvet"" (AO)",RIPE
 205350,VS Qloud Solution GmbH,RIPE
+205351,Liberyum Danismanlik Bilgi Tek. Tic. A.S.,RIPE
 205352,KABELNET LTD,RIPE
 205353,MGA Sp. z o.o.,RIPE
 205354,ENERGOPROJEKT ENTEL a.d. BEOGRAD,RIPE
 205355,CCC.eu Sp. z o.o.,RIPE
 205356,SAP SE,RIPE
 205357,winVS software,PeeringDB
+205358,NEOFIBER SRLS,RIPE
 205359,"""Blitz Information Agency"" LTD",RIPE
 205360,Migration Forensics Limited,RIPE
+205361,Ekotrans Limited Liability Company,RIPE
 205362,SKY WISP,PeeringDB
 205363,"""INTERTV"" Sp. z o.o. sp. k.",RIPE
 205364,State Enterprise 'PROZORRO',RIPE
@@ -68601,25 +68624,33 @@ asn,name,source
 205379,"Salonit Anhovo, d.d.",RIPE
 205380,450connect GmbH,RIPE
 205381,Mitues Global Teknolojiler,PeeringDB
+205382,Nuernberger Wach- und Schliessgesellschaft mbH,RIPE
 205383,CELCOM SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA,RIPE
 205384,WI-HURA.NET,PeeringDB
 205385,SPEEDNETWEB,PeeringDB
 205386,"Zaragozana de Informatica y Telecomunicaciones, S.L.",RIPE
+205387,Audrey CARDON,RIPE
 205388,Serverdiscounter,PeeringDB
 205389,Zoom Internet Limited,PeeringDB
 205390,TectiQom Information Technology GmbH,RIPE
 205391,Merzlyakov A.B. PE,RIPE
+205392,Fiberzone Sp. z o.o.,RIPE
 205393,AEROPORT INTERNATIONAL DE GENEVE,RIPE
 205394,CSL (DualCom),PeeringDB
 205395,Centrum Holding 1 Spolka Akcyjna Sp. K.,RIPE
+205396,PRIAN LLC,RIPE
+205397,Nexus Networks LTD,RIPE
 205398,Tyler OBrien,PeeringDB
 205399,Hostigger INC.,RIPE
 205400,VIVO CONNECTION spol. s r.o.,RIPE
+205401,Ion Beam Applications SA,RIPE
 205402,Imerja,PeeringDB
 205403,ELRAD INTERNATIONAL d.o.o.,RIPE
 205404,Arhides d.o.o.,RIPE
 205405,Kemofarmacija d.d.,RIPE
 205406,Access2.IT Group B.V.,RIPE
+205407,Cagri Demir trading as Abay Bilisim Hizmetleri,RIPE
+205408,"BB Phone Levante, S.L.",RIPE
 205409,Nationale Confederatie van het Bouwbedrijf VZW,RIPE
 205410,Telecom Samara LLC,RIPE
 205411,Boreus Rechenzentrum GmbH,RIPE
@@ -68858,7 +68889,7 @@ asn,name,source
 205645,"MESWIFI, SL",RIPE
 205646,Newtel Company OU,RIPE
 205647,Aria Shabakeh Afagh PJSC,RIPE
-205648,ODN Inc,RIPE
+205648,ODN Inc.,PeeringDB
 205649,"Conred Comunicaciones, S.L.",RIPE
 205650,David Shield - Life Insurance Agency (2000) Ltd,RIPE
 205651,Hao Qiao,PeeringDB
@@ -69489,9 +69520,9 @@ asn,name,source
 206287,"LysaFree, z.s.",RIPE
 206288,Vimmerby kommun,RIPE
 206289,TSB BANKING GROUP PLC,RIPE
-206290,GrahamHayes,PeeringDB
+206290,Graham Hayes,PeeringDB
 206291,Klixa,PeeringDB
-206292,Gerdriaan Mulder,RIPE
+206292,GHCMNET,PeeringDB
 206293,proIO GmbH,RIPE
 206294,Albert Schweitzer Ziekenhuis,RIPE
 206295,MedsiGroup,PeeringDB
@@ -69534,6 +69565,7 @@ asn,name,source
 206333,Atlanta LLC,RIPE
 206334,Teleradiocompany Start LLC,RIPE
 206335,Hudson Global Resources Ltd,RIPE
+206336,Iryna Alieksieieva,RIPE
 206337,"Schmidt Institute of Physics of the Earth of the Russian Academy of Sciences, Federal State Budgetary Scientific Institution",RIPE
 206338,MRSK Urala,RIPE
 206339,Schuler Pressen GmbH,RIPE
@@ -70280,6 +70312,7 @@ asn,name,source
 207081,Bargavachokh Tsantser LLC,RIPE
 207082,x-ion GmbH,RIPE
 207083,HostSlim,PeeringDB
+207084,NCRYPTD AS207084,PeeringDB
 207085,"LLC ""RACKPLACE""",RIPE
 207086,The Knoydart Foundation Ltd,RIPE
 207087,Pay360 Ltd,RIPE
@@ -70798,7 +70831,6 @@ asn,name,source
 207608,AHTek AS,RIPE
 207609,GOCODEIT,PeeringDB
 207610,Association ALLSGROUP,RIPE
-207611,United Hosting Limited,RIPE
 207612,Maximilian Emig,PeeringDB
 207613,/dev/nulll Research Network,PeeringDB
 207614,FuenLan,PeeringDB
@@ -70918,7 +70950,6 @@ asn,name,source
 207728,EUROHOSTER Ltd.,RIPE
 207729,Oitis Com Oy,RIPE
 207730,Sappi Europe S.A.,RIPE
-207731,Ziyuan Cong,RIPE
 207732,cebe.cloud,PeeringDB
 207734,QUIKA LTD,RIPE
 207735,DERSEN SP.zoo,RIPE
@@ -71722,7 +71753,7 @@ asn,name,source
 208547,"LLC ""NPK ""VOLGA-AVTOMATIKA""""",RIPE
 208548,Internet Systems Group,PeeringDB
 208549,Christian Ehrig,PeeringDB
-208550,Transferwise Ltd Eesti filiaal,RIPE
+208550,Wise Payments Limited Eesti filiaal,RIPE
 208551,Aabenraa Kommune,RIPE
 208552,PROCESSING SERVICES SIA GREECE S.A.,RIPE
 208553,IE Aksenov Artem Ivanovich,RIPE
@@ -71749,6 +71780,7 @@ asn,name,source
 208574,Communaute de Communes du Pays de Bitche,RIPE
 208575,Haemoglobin,RIPE
 208576,Arts Alliance Media Ltd,RIPE
+208577,Chaohui Liu,RIPE
 208578,Macrotel Italia,PeeringDB
 208579,Modis Bulgaria EOOD,RIPE
 208580,Mikkel Nielsen,RIPE
@@ -71858,7 +71890,7 @@ asn,name,source
 208686,Adrian William Everard van de Ven,RIPE
 208687,JURASSIC FIBRE LTD,RIPE
 208688,BBIX Europe B.V.,RIPE
-208690,CUBIK NETWORK,PeeringDB
+208690,CUBE NETWORK,PeeringDB
 208691,ITSDONE Services GmbH,RIPE
 208692,Kripos,RIPE
 208693,Art Of Automation Glasvezel B.V.,RIPE
@@ -71882,7 +71914,7 @@ asn,name,source
 208712,"CENDIS, s.p.",RIPE
 208713,EDS-NET,PeeringDB
 208714,OpticomPlus,RIPE
-208715,Beuret-C B.V.,RIPE
+208715,Rodin Broadband B.V.,RIPE
 208716,PROGETTO SICUREZZA SRL,RIPE
 208717,Remco van Zuijlen,PeeringDB
 208718,Harald Leithner,RIPE
@@ -72131,7 +72163,7 @@ asn,name,source
 208964,Anstalt fuer Kommunale Datenverarbeitung in Bayern (AKDB),RIPE
 208965,I.NET ltd,RIPE
 208966,Sortland Elektro AS,RIPE
-208967,Ticket Online Sales & Service Center GmbH,RIPE
+208967,CTS Eventim Solutions GmbH,RIPE
 208968,Avacon Connect GmbH,RIPE
 208969,Emilio Piovesan,RIPE
 208970,Fabian Blaese,PeeringDB
@@ -72860,7 +72892,7 @@ asn,name,source
 209704,NV OR NATIONALE MAATSCHAPPIJ DER BELGISCHE SPOORWEGEN,RIPE
 209705,PayEx Sverige AB,RIPE
 209706,"Noop, LLC",RIPE
-209707,P-KOM Telekommunikationsgesellschaft mbH,RIPE
+209707,P-KOM,PeeringDB
 209708,Turkiye Emlak Bankasi A.S.,RIPE
 209709,code200,PeeringDB
 209710,AzSoPro,PeeringDB
@@ -73249,7 +73281,7 @@ asn,name,source
 210103,DDPO,PeeringDB
 210104,Wawtel,PeeringDB
 210105,Piersa.pl Adam Piersa,RIPE
-210106,OHOST LLC,RIPE
+210106,OHOST,PeeringDB
 210107,PLUSWEB,PeeringDB
 210108,Michal Polaszek trading as FIRMA KOMPUTEROWA 3 D,RIPE
 210109,"LLC ""Kurgan-Telecom""",RIPE
@@ -73703,6 +73735,7 @@ asn,name,source
 210563,Sophie Luna Schumann,PeeringDB
 210564,Svante Bengtson trading as Swantzter,RIPE
 210565,Matthias Schmidt,RIPE
+210566,HOSTINGET TELEKOMUNIKASYON TICARET LTD. STI.,RIPE
 210567,OBVT,RIPE
 210568,Athora Ireland Services Limited,RIPE
 210569,Namirial spa,RIPE
@@ -74447,7 +74480,6 @@ asn,name,source
 211314,Christophe-Decaix,RIPE
 211315,Sileman Sp. z o.o.,RIPE
 211316,Adyen N.V.,RIPE
-211318,Denis Aytugan,RIPE
 211319,zafaco,PeeringDB
 211320,Bonarea Energia SLU,RIPE
 211321,NLnet Labs,PeeringDB
@@ -74687,7 +74719,6 @@ asn,name,source
 211560,Muhammet Ugur Ozturk,RIPE
 211561,ULTRA PACKET LLC,RIPE
 211562,andrewnet,PeeringDB
-211563,Bush Broadband Limited,RIPE
 211564,TeamNorr IT-Partner AB,RIPE
 211565,Boschung Mecatronic AG,RIPE
 211566,Logicx Mobiliteit B.V.,RIPE
@@ -75971,7 +76002,7 @@ asn,name,source
 212892,Sligro Food Group Nederland BV,RIPE
 212893,SITI TELECOM 365 S.L.,RIPE
 212894,vio:networks GmbH,RIPE
-212895,Johannes Ernst,PeeringDB
+212895,ROUTE64.ORG,PeeringDB
 212896,"LLC ""Alpha-Zabava""",RIPE
 212897,AnnaTelecom,PeeringDB
 212899,"State Educational Institution of Higher Professional Education ""Moscow State Institute of a Radio engineering, Electronics and Automatics"" (MIREA)",RIPE
@@ -76306,7 +76337,6 @@ asn,name,source
 213236,Marco Grossi,PeeringDB
 213237,Joerg Kost,RIPE
 213238,Bundesministerium des Innern,RIPE
-213239,Tyler Clay Nakamura,RIPE
 213240,GREENTECH SA,RIPE
 213241,TECHIT.BE SRL,RIPE
 213242,HostMC4Free,PeeringDB
@@ -77144,7 +77174,7 @@ asn,name,source
 262937,StarByte Telecom,DB-IP
 262938,B3A COMUNICAÃ”Ã”O LTDA,DB-IP
 262940,Silva & Gonçalves Informática Ltda,PeeringDB
-262942,Wave Telecom,PeeringDB
+262942,Wave Telecom Ltda.,PeeringDB
 262944,"Spectro Networks, S. de R.L. de C.V.",LACNIC
 262945,Golden Line Telecom Ltda,DB-IP
 262946,TARSILA NATALIA SIMOES DE SOUSA MEDEIROS,PeeringDB
@@ -78230,7 +78260,7 @@ asn,name,source
 264181,QUEX COMUNICACAO LTDA,DB-IP
 264182,Silicom Planejamento Tec. e Informatica Ltda,DB-IP
 264185,FUNDACAO REGIONAL INTEGRADA - CAMPUS DE ERECHIM,DB-IP
-264186,AGTNET,PeeringDB
+264186,AgresteNet,PeeringDB
 264188,VOLT TELECOM,DB-IP
 264189,MinutosTelecom,PeeringDB
 264191,Temais Telecom,PeeringDB
@@ -78902,6 +78932,7 @@ asn,name,source
 264942,ANDERSON ALCANTARA DOS DOS SANTOS EIRELI,DB-IP
 264943,VIARAPIDA TELECOMUNICAÃ”Ã”ES LTDA - ME,DB-IP
 264944,enzo serviços e comercio de telecomunicações,PeeringDB
+264945,IP5 PROVEDORES DE REDES E TELECOMUNICACOES,PeeringDB
 264946,PLANETA TURBO WI FI COMUNICACOES LTDA,DB-IP
 264947,LUIZ LIMA,PeeringDB
 264948,KONECTIVA TELECOM,PeeringDB
@@ -81535,6 +81566,7 @@ asn,name,source
 267793,INTUEGO S.R.L.,DB-IP
 267794,PROTEC ARGENTINA S.A.,DB-IP
 267795,PRIETO TELLES ALEXANDRE(F1NET TELECOM PY),DB-IP
+267796,BETEL SOLUCIONES S.A.S,LACNIC
 267797,EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA (ENATREL),LACNIC
 267798,GENERACION WI-FI,PeeringDB
 267799,TV ISLA LTDA,DB-IP
@@ -82215,7 +82247,7 @@ asn,name,source
 268526,Conect Virtua Provedor de Internet Banda Larga,DB-IP
 268527,graciete oliveira dos santos me,DB-IP
 268528,MR7 TELECOM LTDA - ME,PeeringDB
-268529,JAMILTON DA GLORIA DE JESUS,DB-IP
+268529,JAMILTON DA GLORIA DE JESUS,PeeringDB
 268531,Anderson Paiva Alves ME,DB-IP
 268532,CALLNET BAHIA INFORMATICA LTDA,DB-IP
 268533,IONET TECNOLOGIA EM INTERNET EIRELI - ME,PeeringDB
@@ -83134,7 +83166,7 @@ asn,name,source
 269485,JRNETWORKS Telecom,DB-IP
 269486,R.R SOARES INTERNET,DB-IP
 269487,PRIME TELECOM LTDA,DB-IP
-269488,RRLINK TELECOM LTDA,PeeringDB
+269488,RRLINK TELECOM,PeeringDB
 269489,TERA TELECOM EIRELI,DB-IP
 269490,SYNCNET TELECOM,PeeringDB
 269491,ShalomNET,PeeringDB
@@ -83592,6 +83624,7 @@ asn,name,source
 269975,CORPORACION CONEXTELECOM,PeeringDB
 269976,TV MAX CABLE S.A.,LACNIC
 269977,HOSPITAL MILITAR CENTRAL,DB-IP
+269978,SZOK NAHUEL SANTOS PASCUAL (EL TREBOL ISP),LACNIC
 269979,Cooperativa Eléctrica Limitada de Norberto de la Riestra,PeeringDB
 269980,PLAZA RED SOLUCIONES INTEGRALES SAS,LACNIC
 269981,COMPUNETWORK,PeeringDB
@@ -84299,7 +84332,7 @@ asn,name,source
 270797,Brasil Cloud Serviços de Computação em Nuvem,PeeringDB
 270798,Microchip.Net Fibra Optica,PeeringDB
 270799,5 TELECOM COMUNICACAO E MULTIMIDIA LTDA,DB-IP
-270800,ROBERTO VIEIRA DA CRUZ ME,DB-IP
+270800,ROBERTO VIEIRA DA CRUZ ME,PeeringDB
 270801,SubÃ”rbio Digital,DB-IP
 270802,CONEXÃ”O GLOBAL COMUNICAÃ”Ã”O LTDA ME,DB-IP
 270803,D. P. da Silva Comunicação,PeeringDB
@@ -85354,7 +85387,7 @@ asn,name,source
 271933,AIRMAXTELECOM SOLUCIONES TECNOLOGICAS S.A.,PeeringDB
 271934,HDCO GROUP SRL,DB-IP
 271935,AIRTIME TECHNOLOGY,PeeringDB
-271936,SERVICIOS DE TELECOMUNICACIONES ATVCABLE CIA. LTDA.,LACNIC
+271936,SERVICIOS DE TELECOMUNICACIONES ATVCABLE,PeeringDB
 271938,GGNET,PeeringDB
 271940,"BANCO DE RESERVAS DE LA REPUBLICA DOMINICANA BANCO DE SERVICIOS MULTIPLES, S.A",DB-IP
 271941,NUÑEZ DE LA ROSA RICHARD DALTON (ECONTEL ECUADOR),LACNIC
@@ -85434,6 +85467,7 @@ asn,name,source
 272086,CENTRAL DE SERVICIOS DIGITALES S.A.S.,LACNIC
 272099,WIRSCHKE MONGES RICARDO DANIEL,LACNIC
 272104,Latin Cable,PeeringDB
+272111,AS272111,PeeringDB
 272113,COOPERATIVA ELECTRICA Y OTROS SERVICIOS PUBLICOS DE FERRE LIMITADA,LACNIC
 272114,NET ACEBAL S.A.,LACNIC
 272117,MICROLAN OESTE.NET S.R.L.,LACNIC
@@ -86937,7 +86971,7 @@ asn,name,source
 329043,NetSat Communications (PTY) LTD,AFRINIC
 329044,Surf Sky Net Solutions Limited,AFRINIC
 329045,Ilitha Infrastructure (Pty) Ltd,AFRINIC
-329046,ORG-CWL2-AFRINIC,PeeringDB
+329046,CFM WIRELESS,PeeringDB
 329047,Poynting Delta,PeeringDB
 329048,NETCOM sa,AFRINIC
 329049,Ring a Nerd cc,AFRINIC
@@ -86947,6 +86981,8 @@ asn,name,source
 329053,QSupport Cloud (Pty) Ltd,AFRINIC
 329054,9 Payment Service Bank Limited,AFRINIC
 329055,DATANEO TELECOMS,AFRINIC
+329056,SKY INTERNET SA (PTY) LTD,AFRINIC
+329057,Smart City Technology Company Ltd,AFRINIC
 393216,Union County College,DB-IP
 393218,Mercer Road Corp,DB-IP
 393220,ARIN-PFS-SJC,PeeringDB
@@ -88876,7 +88912,7 @@ asn,name,source
 395846,"Direct Communications Rockland, Inc",DB-IP
 395850,BRYANT BANK,DB-IP
 395853,NYCMesh,PeeringDB
-395854,Schroder Investment Management North America Inc.,DB-IP
+395854,1045 Avenue of the Americas,ARIN
 395855,AC Skyways,DB-IP
 395856,"2K GAMES, Inc.",DB-IP
 395857,Maricopa Integrated Health System,DB-IP
@@ -89023,7 +89059,7 @@ asn,name,source
 396066,Pasco County Board of County Commissioners,DB-IP
 396069,Nazarene Bible College,DB-IP
 396070,"Mobis Alabama, LLC",DB-IP
-396071,"NTT Global Data Centers Americas, INC.",DB-IP
+396071,RagingWire CH Internet Connect - NTT,PeeringDB
 396072,Southern California Association of Governments,DB-IP
 396073,Spin Servers,PeeringDB
 396074,Oneida County,DB-IP
@@ -89921,7 +89957,7 @@ asn,name,source
 397536,Cloud Connectiv Incorporated,DB-IP
 397537,"The Baseball Club of Seattle, LLLP",DB-IP
 397539,LAKSH-CYBERSECURITY-AND-DEFENSE-LLC,PeeringDB
-397540,Windscribe,DB-IP
+397540,Windscribe,PeeringDB
 397543,Royal Roads University,DB-IP
 397544,Longfellow Investment Management,PeeringDB
 397545,Purple Cow Internet,PeeringDB
@@ -90817,7 +90853,7 @@ asn,name,source
 398959,Energir L.P.,DB-IP
 398960,Cryoflesh,PeeringDB
 398961,Microsoft Corporation,DB-IP
-398962,ControlD Anycast Network,ARIN
+398962,CONTROLD,PeeringDB
 398963,Long Beach Unified School District,DB-IP
 398965,EnerBank USA,ARIN
 398966,MultiTEL,PeeringDB
@@ -91656,7 +91692,7 @@ asn,name,source
 400521,"Omni Fiber, LLC",ARIN
 400524,"LCI II, Inc.",DB-IP
 400528,825 Broadway St,ARIN
-400529,INFRALY-LLC,PeeringDB
+400529,"Infraly, LLC",PeeringDB
 400542,ROSENET,PeeringDB
 400547,SKNIX Route Servers,PeeringDB
 400548,Bridge IX Dublin,PeeringDB
@@ -91671,7 +91707,9 @@ asn,name,source
 400620,Open Transport Partnership,PeeringDB
 400637,https://www.molagers.org,ARIN
 400647,PROXIED-NETWORKS,PeeringDB
+400671,stypr,PeeringDB
 400679,Uberduck,PeeringDB
+400688,DANIELNET,PeeringDB
 401306,Ingersoll Rand Inc.,DB-IP
 401307,Michigan Statewide Educational Network,PeeringDB
 401308,Nomad Air,PeeringDB
