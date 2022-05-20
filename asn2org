@@ -181,6 +181,38 @@ def from_peeringdb(peeringdb_url):
     return {d["asn"]: (d["name"], "PeeringDB") for d in data["data"]}
 
 
+def clean(name, asn, source):
+    """Clean AS name to remove cruft. This includes removing the
+    repetition of the AS number or the "LLC" or ", Inc." present in
+    some AS names."""
+    cleaned = name
+    previous = None
+    while cleaned != previous:
+        previous = cleaned
+        cleaned = cleaned.rstrip(" ,.")
+        for prefix in [
+            "LLC",
+            "Limited",
+            "Pty",
+            "Co",
+            "AG",
+            "GmbH",
+            "Ltd",
+            "B.V",
+            "Inc",
+            "SARL",
+            "S.A",
+            "S.p.A",
+            f"AS{asn}",
+            f"(AS{asn})",
+        ]:
+            if cleaned.lower().endswith(f" {prefix.lower()}"):
+                cleaned = cleaned[: -len(prefix)]
+    if cleaned:
+        return cleaned
+    return name
+
+
 def main(options):
     """Create CSV file."""
     asns = {}
@@ -211,7 +243,9 @@ def main(options):
     )
     asns.update(from_peeringdb(options.peeringdb_url))
 
-    data = [(asn, name, source) for asn, (name, source) in asns.items()]
+    data = [
+        (asn, clean(name, asn, source), source) for asn, (name, source) in asns.items()
+    ]
     data.sort()
     w = csv.writer(sys.stdout, dialect=options.csv_dialect, quoting=csv.QUOTE_MINIMAL)
     w.writerow(("asn", "name", "source"))
