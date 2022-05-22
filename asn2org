@@ -247,7 +247,9 @@ def main(options):
         (asn, clean(name, asn, source), source) for asn, (name, source) in asns.items()
     ]
     data.sort()
-    w = csv.writer(sys.stdout, dialect=options.csv_dialect, quoting=csv.QUOTE_MINIMAL)
+    w = csv.writer(
+        sys.stdout, dialect=options.csv_dialect, quoting=csv.QUOTE_NONNUMERIC
+    )
     w.writerow(("asn", "name", "source"))
     for d in data:
         w.writerow(d)
