@@ -8,7 +8,7 @@ There are various other sources for this information:
 
 - [Potaroo](https://bgp.potaroo.net/cidr/autnums.html)
 - [RIPE](http://ftp.ripe.net/ripe/asnames/asn.txt)
-- [Maximnd ASN database](https://dev.maxmind.com/geoip/docs/databases/asn?lang=en#csv-database)
+- [Maxmind ASN database](https://dev.maxmind.com/geoip/docs/databases/asn?lang=en#csv-database)
 
 The goal of this script is to improve the quality of such information
 and avoid names such as `COGENT-174` or `AS-SSI`. The script gives
