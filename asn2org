@@ -189,7 +189,7 @@ def clean(name, asn, source):
     previous = None
     while cleaned != previous:
         previous = cleaned
-        cleaned = cleaned.rstrip(" ,.")
+        cleaned = cleaned.rstrip(" ,.-")
         for prefix in [
             "LLC",
             "Limited",
@@ -205,8 +205,18 @@ def clean(name, asn, source):
             "S.p.A",
             f"AS{asn}",
             f"(AS{asn})",
+            f"AS {asn}",
+            f"(AS {asn})",
+            f"ASN{asn}",
+            f"(ASN{asn})",
+            f"ASN {asn}",
+            f"(ASN {asn})",
+            f"{asn}",
+            f"({asn})",
         ]:
-            if cleaned.lower().endswith(f" {prefix.lower()}"):
+            if cleaned.lower().endswith(
+                tuple(f"{sep}{prefix.lower()}" for sep in (" ", ",", "-"))
+            ):
                 cleaned = cleaned[: -len(prefix)]
     if cleaned:
         return cleaned
