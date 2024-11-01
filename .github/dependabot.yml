@@ -1,0 +1,11 @@
+---
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    commit-message:
+      prefix: build
+    schedule:
+      interval: monthly
+    labels:
+      - dependencies
