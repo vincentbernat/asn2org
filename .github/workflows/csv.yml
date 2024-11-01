@@ -38,7 +38,7 @@ jobs:
         run: |
           ./asn2org > asns.csv
       - name: Upload CSV file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: csv
           path: asns.csv
