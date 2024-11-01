@@ -24,7 +24,9 @@ jobs:
       - name: Setup cache
         uses: actions/cache@v4
         with:
-          path: "*.db.*"
+          path: |
+            *.db.*
+            dbip-asn*.csv.gz
           key: 1-${{ steps.get-date.outputs.today }}
 
       # Python
