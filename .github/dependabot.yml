@@ -9,3 +9,7 @@ updates:
       interval: monthly
     labels:
       - dependencies
+    groups:
+      actions:
+        patterns:
+          - "actions/*"
