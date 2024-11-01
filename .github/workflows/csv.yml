@@ -20,7 +20,7 @@ jobs:
           echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
         shell: bash
       - name: Setup cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: "*.db.*"
           key: 1-${{ steps.get-date.outputs.date }}
