@@ -13,7 +13,7 @@ jobs:
     name: build ⚙️
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # Cache DB files
       - name: Get current date
@@ -53,11 +53,11 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: gh-pages
       - name: Retrieve asns.csv
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: csv
       - name: Update repository with newest version
