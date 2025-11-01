@@ -42,7 +42,7 @@ jobs:
         run: |
           ./asn2org > asns.csv
       - name: Upload CSV file
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: csv
           path: asns.csv
@@ -57,7 +57,7 @@ jobs:
         with:
           ref: gh-pages
       - name: Retrieve asns.csv
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: csv
       - name: Update repository with newest version
