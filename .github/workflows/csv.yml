@@ -30,10 +30,10 @@ jobs:
           key: 1-${{ steps.get-date.outputs.today }}
 
       # Python
-      - name: Install Python 3.9
+      - name: Install Python 3.14
         uses: actions/setup-python@v7
         with:
-          python-version: "3.9"
+          python-version: "3.14"
           cache: "pip"
       - run: pip install -r requirements.txt
 
